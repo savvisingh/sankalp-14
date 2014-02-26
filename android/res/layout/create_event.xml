@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="25dp">
+
+    <EditText
+        android:id="@+id/eTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Tittle"
+        android:inputType="textPersonName" >
+
+        <requestFocus android:layout_width="wrap_content" />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/eCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.62"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Description" />
+
+    <EditText
+        android:id="@+id/eTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Tags" 
+        android:gravity="center"/>
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/eTime"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/eDate"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date"
+        android:gravity="center"
+        android:inputType="date" />
+    </LinearLayout>
+
+ <Button
+     android:id="@+id/submit"
+     android:layout_width="132dp"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:text="Submit" />
+
+</LinearLayout>
